@@ -16,8 +16,6 @@ int main(int argc, char *argv[]) {
             else if (argv[i] == std::string("-2")) { mode = 2; }
             else if (argv[i] == std::string("-3")) { mode = 3; }
 
-            if (argv[i] == std::string("--full")) { use_full = true; }
-
             if (argv[i] == std::string("-s")) { show_zeros = true; }
         }
     }
